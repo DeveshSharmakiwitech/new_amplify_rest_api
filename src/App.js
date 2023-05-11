@@ -38,7 +38,7 @@ function App() {
       //   email: awsappEmail,
       // }
     }).then( resData => console.log('Delete resData :>> ', resData))
-    .catch(err=>console.log('errRes :>> ', err));
+    .catch(err=>console.log('errRes:>> ', err));
   }
   return (
     <div className='App'>
