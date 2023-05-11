@@ -37,7 +37,7 @@ function App() {
       // body: {
       //   email: awsappEmail,
       // }
-    }).then( resData => console.log('Delete resData :>> ', resData))
+    }).then( resData => console.log('Delete resData:>> ', resData))
     .catch(err=>console.log('errRes:>> ', err));
   }
   return (
